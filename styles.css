@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Load the custom "Super Shiny" font */
+@font-face {
+    font-family: 'Super Shiny';
+    src: url('Super Shiny.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Basic page style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Super Shiny', sans-serif;
+    overflow-y: scroll; /* Enable scrolling */
+}
+
+/* Container for content */
+#content {
+    width: 100%;
+    min-height: 100vh; /* Ensure full screen height */
+}
+
+/* Custom cursor style */
+#cursor {
+    position: absolute;
+    pointer-events: none; /* Allow click-through */
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Large MOODENG text style with custom font */
+#moodeng-text {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10vw; /* Scalable font size */
+    font-family: 'Super Shiny', sans-serif; /* Use custom font */
+    margin: 0;
+    z-index: 1;
+    color: black; /* Initial color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Typewriter text container style */
+#typewriter-container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    font-size: 1.5rem;
+    font-family: 'Super Shiny', sans-serif;
+    color: black;
+    white-space: pre-wrap; /* Preserve line breaks */
+}
