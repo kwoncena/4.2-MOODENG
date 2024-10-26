@@ -1,4 +1,4 @@
-# 4.2 MOODENG
+# 4.2 INTERACTIVE WEB PAGE - MOODENG
 
 **4.2 MOODENG** is an interactive website showcasing the story of *Moo Deng*, a famous pygmy hippopotamus known for her playful nature and internet popularity. The website offers a unique combination of dynamic scrolling effects and a typewriter-style narrative, making the storytelling experience both visually captivating and engaging.
 
